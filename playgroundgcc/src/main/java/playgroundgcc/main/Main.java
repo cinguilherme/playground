@@ -1,6 +1,7 @@
 package playgroundgcc.main;
 
 import playgroundgcc.streamer.LambdaPoc;
+import playgroundgcc.streamer.StreamsPoc;
 
 public class Main {
 
@@ -10,7 +11,11 @@ public class Main {
 		//test lamba poc
 		LambdaPoc lam = new LambdaPoc();
 		
-		lam.doit();
+		//lam.doit();
+		
+		StreamsPoc str = new StreamsPoc();
+		
+		str.doIt();
 		
 	}
 	
