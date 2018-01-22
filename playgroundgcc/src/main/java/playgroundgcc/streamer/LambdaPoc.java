@@ -1,18 +1,19 @@
 package playgroundgcc.streamer;
 
+@FunctionalInterface
 interface doer {
-	void doIt();
+	void doIt(int i);
 }
 
 public class LambdaPoc {
 
 	doer ob;
 	
-	void doit() {
+	public void doit() {
 		
-		ob = () -> System.out.println("teste");
+		ob = i -> System.out.println("teste");
 		
-		ob.doIt();
+		ob.doIt(5);
 		
 	}
 	
