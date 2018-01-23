@@ -1,5 +1,6 @@
 package playgroundgcc.main;
 
+import playgroundgcc.interfaces.UseInterface;
 import playgroundgcc.streamer.LambdaPoc;
 import playgroundgcc.streamer.StreamsPoc;
 
@@ -17,6 +18,8 @@ public class Main {
 		
 		str.doIt();
 		
+		
+		UseInterface use = new UseInterface();
 	}
 	
 }

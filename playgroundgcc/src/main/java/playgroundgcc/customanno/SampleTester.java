@@ -2,6 +2,6 @@ package playgroundgcc.customanno;
 
 public class SampleTester {
 
-	Sample sample = new Sample();
+	Sample sample = new Sample("teste");
 	
 }
