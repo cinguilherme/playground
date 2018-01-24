@@ -8,30 +8,34 @@ import playgroundgcc.streamer.LambdaPoc;
 import playgroundgcc.streamer.StreamsPoc;
 import static java.lang.System.*;
 
+import crazyclasses.Program;
+
 public class Main {
 
 	public static void main(String[] args) {
 
-		OssoInterface.doIt();
+		Program.doIt();
 		
-		MethodOver.tester();
-		Over.doEr();
+//		OssoInterface.doIt();
+//		
+//		MethodOver.tester();
+//		Over.doEr();
 		
-		out.print(10);
+//		out.print(10);
 		
 		//test lamba poc
-		LambdaPoc lam = new LambdaPoc();
-		
-		//lam.doit();
-		StreamsPoc str = new StreamsPoc();
-		
-		str.doIt();
-		
-		UseInterface use = new UseInterface();
-		
-		double obj = 3.0;
-		Number num = (Number)obj;
-		System.out.println(num);
+//		LambdaPoc lam = new LambdaPoc();
+//		
+//		//lam.doit();
+//		StreamsPoc str = new StreamsPoc();
+//		
+//		str.doIt();
+//		
+//		UseInterface use = new UseInterface();
+//		
+//		double obj = 3.0;
+//		Number num = (Number)obj;
+//		System.out.println(num);
 	}
 	
 	
