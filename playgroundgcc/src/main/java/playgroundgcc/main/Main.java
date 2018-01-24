@@ -1,6 +1,8 @@
 package playgroundgcc.main;
 
 import playgroundgcc.interfaces.UseInterface;
+import playgroundgcc.overload.MethodOver;
+import playgroundgcc.overload.Over;
 import playgroundgcc.streamer.LambdaPoc;
 import playgroundgcc.streamer.StreamsPoc;
 import static java.lang.System.*;
@@ -9,6 +11,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		MethodOver.tester();
+		Over.doEr();
 		
 		out.print(10);
 		
@@ -26,7 +30,7 @@ public class Main {
 		Number num = (Number)obj;
 		System.out.println(num);
 	}
-	{System.out.println("kajaja");}
+	
 	
 	static {System.out.println("static");}
 	
