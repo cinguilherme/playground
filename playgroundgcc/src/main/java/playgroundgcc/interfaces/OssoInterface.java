@@ -2,8 +2,13 @@ package playgroundgcc.interfaces;
 
 public class OssoInterface {
 
+	int x = 013;
 	public static void doIt() {
-		System.out.println(new loko().getSpeed());
+		OssoInterface pr = new OssoInterface();
+		pr.div(22);
+	}
+	void div(final int i) {
+		System.out.println(i/x);
 	}
 
 }
@@ -21,7 +26,7 @@ interface Run {
 }
 
 class loko implements Walk, Run {
-
+	
 	@Override
 	public int getSpeed() {
 		// TODO Auto-generated method stub

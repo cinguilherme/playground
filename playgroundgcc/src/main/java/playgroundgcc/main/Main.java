@@ -1,5 +1,6 @@
 package playgroundgcc.main;
 
+import playgroundgcc.interfaces.OssoInterface;
 import playgroundgcc.interfaces.UseInterface;
 import playgroundgcc.overload.MethodOver;
 import playgroundgcc.overload.Over;
@@ -11,6 +12,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		OssoInterface.doIt();
+		
 		MethodOver.tester();
 		Over.doEr();
 		
